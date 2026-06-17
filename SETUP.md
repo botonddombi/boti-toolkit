@@ -50,7 +50,7 @@ echo 'source "$HOME/Documents/boti-toolkit/shell/hwt.zsh"' >> ~/.zshrc
 
 Updating later: `git -C ~/Documents/boti-toolkit pull` — the shell picks up changes on the next new pane (or `source ~/.zshrc`).
 
-## 6. Per-repo notes (kamino-webapp)
+## 6. Per-repo notes
 
 - Gitignored env files `.env.local` and `.env.development.local` hold the RPC config (`VITE_APP_CUSTOM_RPC` etc.). Without them the app falls back to Triton and gets 403s on localhost — `hwt` symlinks them into every worktree automatically.
 - For near-instant `pnpm install` across worktrees, pnpm's global virtual store helps (`enableGlobalVirtualStore` in `pnpm-workspace.yaml`) — note that file is committed/team-wide.
