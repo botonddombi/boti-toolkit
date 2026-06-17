@@ -12,7 +12,7 @@ brew install git jq gh pnpm
 gh auth login            # personal account: botonddombi
 ```
 
-Node is managed per-project (e.g. kamino-webapp pins Node 24 via `package.json` engines / `.nvmrc`-style tooling). Install whatever the active project needs.
+Node is managed per-project (e.g. pins Node 24 via `package.json` engines / `.nvmrc`-style tooling). Install whatever the active project needs.
 
 ## 2. GPG / SSH (YubiKey)
 
